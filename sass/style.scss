@@ -131,6 +131,7 @@ footer {
   justify-content: space-around;
   flex-wrap: wrap;
   padding: 30px;
+
   & > div {
     padding: 30px;
   }
@@ -138,14 +139,57 @@ footer {
     width: 150px;
     height: 150px;
     border-radius: 150px;
-    border: 8px solid var(--Gold, #b99049);
-    background: url(<path-to-image>), lightgray -1.24px 0px / 101.653% 141.566% no-repeat;
+    background:
+      url(<path-to-image>),
+      lightgray -1.24px 0px / 101.653% 141.566% no-repeat;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     object-fit: cover;
+    margin-bottom: 30px;
+    border: 8px solid var(--Gold, #b99049);
   }
   p {
     text-align: center;
     color: var(--Gold, #b99049);
+  }
+
+  .Gryffindor {
+    img {
+      border: 8px solid var(--Gold, #b71713);
+    }
+
+    p {
+      color: var(--Gold, #b71713);
+    }
+  }
+
+  .Slytherin {
+    img {
+      border: 8px solid var(--Green, #124b10);
+    }
+
+    p {
+      color: var(--Green, #124b10);
+    }
+  }
+
+  .Hufflepuff {
+    img {
+      border: 8px solid var(--Gold, #e1b50c);
+    }
+
+    p {
+      color: var(--Gold, #e1b50c);
+    }
+  }
+
+  .Ravenclaw {
+    img {
+      border: 8px solid var(--Gold, #078cb1);
+    }
+
+    p {
+      color: var(--Gold, #078cb1);
+    }
   }
 }
 
@@ -220,5 +264,9 @@ footer {
   .houses {
     flex-direction: column;
     align-content: space-around;
+  }
+
+  .perso {
+    flex-direction: column;
   }
 }
