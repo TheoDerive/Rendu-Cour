@@ -146,13 +146,15 @@ footer {
     object-fit: cover;
     margin-bottom: 30px;
     border: 8px solid var(--Gold, #b99049);
+    transition: border 0.3s;
   }
   p {
     text-align: center;
     color: var(--Gold, #b99049);
+    transition: color 0.3s;
   }
 
-  .Gryffindor {
+  .Gryffindor:hover {
     img {
       border: 8px solid var(--Gold, #b71713);
     }
@@ -162,7 +164,7 @@ footer {
     }
   }
 
-  .Slytherin {
+  .Slytherin:hover {
     img {
       border: 8px solid var(--Green, #124b10);
     }
@@ -172,7 +174,7 @@ footer {
     }
   }
 
-  .Hufflepuff {
+  .Hufflepuff:hover {
     img {
       border: 8px solid var(--Gold, #e1b50c);
     }
@@ -182,7 +184,7 @@ footer {
     }
   }
 
-  .Ravenclaw {
+  .Ravenclaw:hover {
     img {
       border: 8px solid var(--Gold, #078cb1);
     }

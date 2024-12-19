@@ -137,33 +137,35 @@ footer p {
   object-fit: cover;
   margin-bottom: 30px;
   border: 8px solid var(--Gold, #b99049);
+  transition: border 0.3s;
 }
 .characters p {
   text-align: center;
   color: var(--Gold, #b99049);
+  transition: color 0.3s;
 }
-.characters .Gryffindor img {
+.characters .Gryffindor:hover img {
   border: 8px solid var(--Gold, #b71713);
 }
-.characters .Gryffindor p {
+.characters .Gryffindor:hover p {
   color: var(--Gold, #b71713);
 }
-.characters .Slytherin img {
+.characters .Slytherin:hover img {
   border: 8px solid var(--Green, #124b10);
 }
-.characters .Slytherin p {
+.characters .Slytherin:hover p {
   color: var(--Green, #124b10);
 }
-.characters .Hufflepuff img {
+.characters .Hufflepuff:hover img {
   border: 8px solid var(--Gold, #e1b50c);
 }
-.characters .Hufflepuff p {
+.characters .Hufflepuff:hover p {
   color: var(--Gold, #e1b50c);
 }
-.characters .Ravenclaw img {
+.characters .Ravenclaw:hover img {
   border: 8px solid var(--Gold, #078cb1);
 }
-.characters .Ravenclaw p {
+.characters .Ravenclaw:hover p {
   color: var(--Gold, #078cb1);
 }
 
